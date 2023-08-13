@@ -4,8 +4,6 @@
 }
 body{
     padding: 0px;
-    line-height: 1.5; /* Espaçamento entre linhas */
-    letter-spacing: 1px; /* Espaçamento entre letras */
 }
 section.paglogin{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -38,6 +36,8 @@ h1.especial{
     width: 50%;
     background-color: white;
     flex-grow: 1;
+    line-height: 1.5; /* Espaçamento entre linhas */
+    letter-spacing: 1px; /* Espaçamento entre letras */
 }
 .conteudo p{
     font-size: small;
