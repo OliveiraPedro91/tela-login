@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    /* Estilização para o contêiner principal com fundo dividido */
+    .container {
+      display: flex;
+      width: 100%;
+      height: 100vh;
+    }
+
+    /* Estilização para o lado esquerdo (roxo) */
+    .lado-roxo {
+      flex-grow: 1; /* Expande para ocupar espaço disponível */
+      background-color: purple;
+      padding: 20px;
+      margin: 0px;
+      color: white;
+    }
+
+    /* Estilização para o lado direito (branco) */
+    .lado-branco {
+      flex-grow: 1; /* Expande para ocupar espaço disponível */
+      background-color: white;
+      padding: 20px;
+      color: black;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="lado-roxo">
+        <section class="paglogin">
+            <div class="conteudo">
+                <div class="cab1">
+                    <picture>
+                        <img src="img/icone gorila.png" alt="Gorila símbolo da empresa KingDev" width="50px" height="50px">
+                    </picture>
+                </div>    
+                <div class="cab2">
+                        <h1>KingDev</h1>
+                </div>
+                    <h1 class="especial">Acesse a plataforma</h1>
+                    <p>Faça login na plataforma e tenha acesso aos melhores conteúdos DEVs.</p>
+                
+                <form action="#">
+                    <label for="iusu">Usuário:</label>
+                    <br>
+                    <input type="text" name="Usuário" id="iusu" autocomplete="on" required placeholder="Usuário">
+                    <br>
+                    <!---->
+                    <label for="isenha">Senha:</label>
+                    <br>
+                    <input type="password" name="senha" id="isenha" autocomplete="off" required placeholder="Senha" minlength="6">
+                    <br>
+                    <p><a href="#">Não consigo logar.</a></p>
+                    <button class="btm-login">Login</button>
+                </form>
+                <p>Não tem cadastro? Inscreva-se <a href="#">aqui</a></p>
+            </div>
+    </div>
+    <div class="lado-branco">
+      <h1>Lado Branco</h1>
+      <p>Este é o lado com fundo branco.</p>
+    </div>
+  </div>
+</body>
+</html>
