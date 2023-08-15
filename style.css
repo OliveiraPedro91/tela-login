@@ -1,7 +1,7 @@
 *{
     margin: 0px;
     padding: 0px;
-    font-size: large;
+    font-size: normal;
 }
 body{
     padding: 0px;
@@ -68,8 +68,47 @@ a{
     text-decoration: none;
     color: purple;
 }
-a:hover{
-    text-decoration: underline;
-
+/*    FIM DA PÁGINA DE LOGIN      */
+/* <!-- CABEÇALHO DAS PÁGINAS 
+        Páginas de conteúdo --> */
+header{
+    position: fixed ;
+}               
+.menu {
+    position: fixed;
+    height: 90px;
+    width: 100%;
+    background-color:white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 20px 20px;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  .menu-buttons {
+    display: flex;
+    gap: 20px;
+  }
+  /* Estilização para cada botão */
+  .menu-button {
+    text-decoration: none;
+    color: purple;
+    font-size: bolder;
+    background-color: transparent;
+    padding: 5px 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+  .menu-button:hover {
+    background-color: purple; /* Fundo do hover */
+    color: white; /* Mantém a cor do texto */
+  }
+/*     CONTEUDO DO SITE      */
+main{
+    background-color: white;
+    width: 800px;
+    margin: auto;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: normal;
 }
-
